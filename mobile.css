@@ -1,0 +1,60 @@
+@media only screen and (max-width: 767px) {
+  /* Apply styles for screens up to 767px width (typically mobile devices) */
+
+  /* Continue adapting styles for other elements as needed */
+  /* .container1 {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    background: white;
+  } */
+  .navbar {
+    display: none;
+  }
+  /* .imgContainer {
+    position: absolute;
+    display: flex;
+    margin-top: 0%;
+    top: 0%;
+  } */
+  .imgContainer img {
+    top: 0%;
+    max-width: 99%;
+  }
+  .imgContainer .overlay {
+    top: 0%;
+    max-width: 99%;
+  }
+
+  .imgContainer .heading-text,
+  .follower-count {
+    top: 286px;
+    left: 16.85px;
+  }
+  .imgContainer .follower-count {
+    top: 337px;
+    left: 16.85px;
+  }
+  .wNav {
+    display: none;
+  }
+  .mNav {
+    display: block;
+  }
+  .write-post-container {
+    left: 530px;
+    top: 470px;
+  }
+  .menu-item {
+    font-weight: 600;
+  }
+  .category-menu {
+    left: 30px;
+    top: 470px;
+  }
+  .custom-container {
+    max-width: 99%;
+    top: 550px;
+    left: 0px;
+  }
+}

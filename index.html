@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group Name</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="mobile.css" />
+
+    <script defer src="create.js"></script>
+  </head>
+  <body>
+    <div>
+      <div class="navbar">
+        <div class="header">
+          <img src="svg/icon.svg" class="logo" />
+        </div>
+
+        <div class="search-bar">
+          <div class="background" style="width: fit-content"></div>
+          <div class="icon-container">
+            <div class="icon">
+              <img src="svg/search.svg" alt="Search Icon" />
+            </div>
+          </div>
+          <div class="text">Search for your favorite groups in ATG</div>
+        </div>
+
+        <div class="create-account">
+          <span class="normal-text">Create account. </span>
+          <span class="highlight-text">It's free!</span>
+        </div>
+
+        <div class="down-arrow">
+          <img src="svg/downArrow.svg" alt="Down Arrow Icon" />
+        </div>
+      </div>
+      <div class="imgContainer">
+        <div>
+          <img src="images/img4.jpg" class="image" />
+          <div class="overlay"></div>
+        </div>
+        <div>
+          <div style="top: 40px; left: 16px; position: relative">
+            <img src="svg/leftArrow.svg" />
+          </div>
+          <div class="joinNav">
+            <div
+              style="
+                width: 76px;
+                height: 28px;
+                border-radius: 4px;
+                border: 0.8px white solid;
+              "
+            >
+              <div
+                style="
+                  position: relative;
+                  top: 3px;
+                  left: 7px;
+                  color: white;
+                  font-size: 12px;
+                  font-family: IBM Plex Sans;
+                  font-weight: 500;
+                "
+              >
+                Join Group
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="heading-text">Computer Engineering</div>
+
+        <div class="follower-count">142,765 Computer Engineers follow this</div>
+      </div>
+
+      <!-- middle navbar -->
+
+      <div class="wNav">
+        <div
+          style="
+            width: 1040px;
+            height: 0px;
+            left: 200px;
+            top: 600px;
+            position: absolute;
+            border: 1px #e0e0e0 solid;
+          "
+        ></div>
+        <div class="custom-border"></div>
+
+        <div class="category-menu">
+          <div class="menu-item">All Posts(32)</div>
+          <div class="menu-item" style="left: 113px; color: #8a8a8a">
+            Article
+          </div>
+          <div class="menu-item" style="left: 180px; color: #8a8a8a">Event</div>
+          <div class="menu-item" style="left: 239px; color: #8a8a8a">
+            Education
+          </div>
+          <div class="menu-item" style="left: 331px; color: #8a8a8a">Job</div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="write-post-background"></div>
+          <div class="write-post-text">Write a Post</div>
+          <div class="write-post-arrow">
+            <img src="svg/downArrow.svg" alt="Down Arrow Icon" />
+          </div>
+        </div>
+        <div class="join-group-container">
+          <div class="background"></div>
+          <div class="join-group-text">Join Group</div>
+          <div class="people-icon">
+            <div class="people-icon-img">
+              <img src="svg/people.svg" alt="People Icon" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mNav">
+        <div class="category-menu">
+          <div class="menu-item">Posts(368)</div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="write-post-background"></div>
+          <div class="write-post-text">Filter: All</div>
+          <div class="write-post-arrow">
+            <img src="svg/downArrow.svg" alt="Down Arrow Icon" />
+          </div>
+        </div>
+      </div>
+
+      <!-- location -->
+      <div class="wNav">
+        <div class="location-icon-container">
+          <img
+            src="svg/location.svg"
+            alt="Location Icon"
+            class="location-icon"
+          />
+        </div>
+
+        <div
+          style="
+            width: 243px;
+            height: 0px;
+            left: 997px;
+            top: 685px;
+            position: absolute;
+            border: 0.4px #b8b8b8 solid;
+          "
+        ></div>
+
+        <div class="location-text">Noida, India</div>
+
+        <div class="edit-icon-container">
+          <img src="svg/edit.svg" alt="Edit Icon" class="edit-icon" />
+        </div>
+
+        <div class="location-info-container">
+          <div class="location-text-bottom">
+            Your location will help us serve better and extend a personalized
+            experience.
+          </div>
+          <div class="circle-icon">
+            <img
+              src="svg/circle!.svg"
+              alt="Circle Icon"
+              class="circle-icon-img"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container custom-container">
+        <div class="card custom-card">
+          <img
+            class="card-img-top custom-card-img"
+            src="images/img1.jpg"
+            alt="Card image cap"
+          />
+
+          <div class="card-body">
+            <div class="d-flex">
+              <div class="flex-grow-1">
+                <div class="custom-category">✍️ Article</div>
+              </div>
+              <img src="svg/dot3.svg" alt="Dot Image" class="mr-2" />
+            </div>
+
+            <h5 class="card-title custom-title">
+              What if famous brands had regular fonts? Meet RegulaBrands!
+            </h5>
+
+            <p class="card-text custom-text">
+              I’ve worked in UX for the better part of a decade. From now on, I
+              plan to rei…
+            </p>
+
+            <div class="d-flex align-items-center">
+              <img
+                src="images/sarthak.jpg"
+                style="width: 48px; height: 48px; border-radius: 24px"
+                alt="Author Image"
+                class="mr-2"
+              />
+              <div class="custom-author">Sarthak Kamra</div>
+
+              <div class="d-flex align-items-center custom-views">
+                <img
+                  src="svg/eye.svg"
+                  style="width: 18px; height: 18px"
+                  alt="Eye Icon"
+                />
+                <div>1.4k views</div>
+              </div>
+
+              <div class="custom-share-container">
+                <img
+                  src="svg/share.svg"
+                  class="custom-share-icon"
+                  alt="Share Icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card custom-card" style="top: 488px">
+          <img
+            class="card-img-top custom-card-img"
+            src="images/img2.jpg"
+            alt="Card image cap"
+          />
+
+          <div class="card-body">
+            <div class="d-flex">
+              <div class="flex-grow-1">
+                <div class="custom-category">🔬️ Education</div>
+              </div>
+              <img src="svg/dot3.svg" alt="Dot Image" class="mr-2" />
+            </div>
+
+            <h5 class="card-title custom-title">
+              Tax Benefits for Investment under National Pension Scheme launched
+              by Government
+            </h5>
+
+            <p class="card-text custom-text">
+              I’ve worked in UX for the better part of a decade. From now on, I
+              plan to rei…
+            </p>
+
+            <div class="d-flex align-items-center">
+              <img
+                src="images/saraha.jpg"
+                style="width: 48px; height: 48px; border-radius: 24px"
+                alt="Author Image"
+                class="mr-2"
+              />
+              <div class="custom-author">Sarah West</div>
+
+              <div class="d-flex align-items-center custom-views">
+                <img
+                  src="svg/eye.svg"
+                  style="width: 18px; height: 18px"
+                  alt="Eye Icon"
+                />
+                <div>1.4k views</div>
+              </div>
+
+              <div class="custom-share-container">
+                <img
+                  src="svg/share.svg"
+                  class="custom-share-icon"
+                  alt="Share Icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card custom-card" style="top: 976px">
+          <img
+            class="card-img-top custom-card-img"
+            src="images/img3.jpg"
+            alt="Card image cap"
+          />
+
+          <div class="card-body">
+            <div class="d-flex">
+              <div class="flex-grow-1">
+                <div class="custom-category">🗓️ Meetup</div>
+              </div>
+              <div class="custom-view-background">
+                <img
+                  src="svg/dot3.svg"
+                  class="custom-dot-icon"
+                  alt="dot Icon"
+                />
+              </div>
+            </div>
+
+            <h5 class="card-title custom-title">
+              Finance & Investment Elite Social Mixer @Lujiazui
+            </h5>
+            <div class="d-flex align-items-center">
+              <p
+                class="custome-title"
+                style="font-size: 15px; font-weight: 500; color: black"
+              >
+                <img src="svg/calander.svg" />
+                Fri, 12 Oct, 2018
+              </p>
+              <p class="custome-title custom-location">
+                <img src="svg/location.svg" />
+                Ahmedabad, India
+              </p>
+            </div>
+            <div class="container">
+              <div class="custom-info-bar">
+                <div class="custom-text-w">Visit Website</div>
+              </div>
+            </div>
+
+            <div
+              style="
+                width: 100%;
+                height: 100%;
+                position: relative;
+                left: 512px;
+                top: -125px;
+              "
+            >
+              <div class="custom-container-box"></div>
+
+              <div class="custom-option-box" style="top: 4px">
+                <div class="custom-option-sub-box"></div>
+                <div class="custom-text-box">Edit</div>
+              </div>
+
+              <div class="custom-option-box" style="top: 35px">
+                <div class="custom-option-sub-box"></div>
+                <div class="custom-text-box">Report</div>
+              </div>
+
+              <div class="custom-option-box" style="top: 66px">
+                <div class="custom-option-sub-box"></div>
+                <div class="custom-text-box">Option 3</div>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center">
+              <img
+                src="images/ronal.jpg"
+                style="width: 48px; height: 48px; border-radius: 24px"
+                alt="Author Image"
+                class="mr-2"
+              />
+              <div class="custom-author">Ronal Jones</div>
+
+              <div class="d-flex align-items-center custom-views">
+                <img
+                  src="svg/eye.svg"
+                  style="width: 18px; height: 18px"
+                  alt="Eye Icon"
+                />
+                <div>1.4k views</div>
+              </div>
+
+              <div class="custom-share-container">
+                <img
+                  src="svg/share.svg"
+                  class="custom-share-icon"
+                  alt="Share Icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card custom-card" style="top: 1502px">
+          <div class="card-body">
+            <div class="d-flex">
+              <div class="flex-grow-1">
+                <div class="custom-category">💼️ Job</div>
+              </div>
+              <img src="svg/dot3.svg" alt="Dot Image" class="mr-2" />
+            </div>
+
+            <h5 class="card-title custom-title">Software Developer</h5>
+            <div class="d-flex align-items-center">
+              <p
+                class="custome-title"
+                style="font-size: 15px; font-weight: 500; color: black"
+              >
+                <img src="svg/bag.svg" />
+                Innovaccer Analytics Private Ltd.
+              </p>
+              <p
+                class="custome-title custom-location"
+                style="margin-left: 50px"
+              >
+                <img src="svg/location.svg" />
+                Noida, India
+              </p>
+            </div>
+            <div class="container">
+              <div class="custom-info-bar">
+                <div class="custom-text-w" style="color: #02b875">
+                  Apply on Timesjobs
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center">
+              <img
+                src="images/joseph.jpg"
+                style="width: 48px; height: 48px; border-radius: 24px"
+                alt="Author Image"
+                class="mr-2"
+              />
+              <div class="custom-author">Joseph Gray</div>
+
+              <div class="d-flex align-items-center custom-views">
+                <img
+                  src="svg/eye.svg"
+                  style="width: 18px; height: 18px"
+                  alt="Eye Icon"
+                />
+                <div>1.4k views</div>
+              </div>
+
+              <div class="custom-share-container">
+                <img
+                  src="svg/share.svg"
+                  class="custom-share-icon"
+                  alt="Share Icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box hidden" id="createAccountPage">
+      <div class="group" style="position: absolute; left: 50%; top: 186px">
+        <div class="overlap-wrapper">
+          <div class="overlap">
+            <img class="img" src="images/Group 3.png" />
+            <p class="by-signing-up-you">
+              By signing up, you agree to our Terms &amp; conditions, Privacy
+              policy
+            </p>
+            <div class="overlap-group">
+              <p class="let-s-learn-share">
+                Let&#39;s learn, share &amp; inspire each other with our passion
+                for computer engineering. Sign up now 🤘🏼
+              </p>
+            </div>
+            <p class="already-have-an">
+              <span class="text-wrapper">Already have an account? </span>
+              <span class="span" id="loginPageGo" style="cursor: pointer"
+                >Sign In</span
+              >
+            </p>
+            <div class="div">
+              <div class="text-wrapper-2">Create Account</div>
+              <div class="group-wrapper">
+                <div class="group-2">
+                  <img class="search" src="images/G_icon.png" />
+                  <div class="text-wrapper-3">Sign up with Google</div>
+                </div>
+              </div>
+              <div class="div-wrapper">
+                <div class="group-3">
+                  <div class="text-wrapper-3">Sign up with Facebook</div>
+                  <img class="f-logo-RGB-blue" src="images/f_icon.png" />
+                </div>
+              </div>
+              <div class="group-4">
+                <div class="overlap-group-wrapper">
+                  <div class="overlap-group-2">
+                    <div class="text-wrapper-4">Create Account</div>
+                  </div>
+                </div>
+                <div class="group-5">
+                  <div class="overlap-2">
+                    <div class="group-6">
+                      <div class="overlap-group-3">
+                        <div class="text-wrapper-5">Email</div>
+                      </div>
+                    </div>
+                    <div class="group-7">
+                      <div class="overlap-3">
+                        <div class="text-wrapper-5">Confirm Password</div>
+                      </div>
+                    </div>
+                    <div class="group-8">
+                      <div class="overlap-4">
+                        <div class="text-wrapper-5">First Name</div>
+                        <div class="text-wrapper-6">Last Name</div>
+                        <!-- <img class="line" src="img/line.svg" /> -->
+                      </div>
+                    </div>
+                    <div class="group-9">
+                      <div class="overlap-group-3">
+                        <div class="text-wrapper-5">Password</div>
+                        <div class="group-10"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="group-11 loginClose"
+          src="svg/cross.svg"
+          style="background-color: #666666; cursor: pointer"
+        />
+      </div>
+    </div>
+
+    <div class="box hidden" id="loginAccountPage">
+      <div class="group" style="position: absolute; left: 50%; top: 186px">
+        <div class="overlap-wrapper">
+          <div class="overlap">
+            <img class="img" src="images/Group 3.png" />
+            <p class="by-signing-up-you"></p>
+            <div class="overlap-group">
+              <p class="let-s-learn-share">
+                Let&#39;s learn, share &amp; inspire each other with our passion
+                for computer engineering. Sign up now 🤘🏼
+              </p>
+            </div>
+            <p class="already-have-an" style="left: 450px">
+              <span class="text-wrapper">Don’t have an account yet? </span>
+              <span
+                class="span"
+                id="createAccountPageGo"
+                style="cursor: pointer"
+                >Create Account</span
+              >
+            </p>
+            <div class="div">
+              <div class="text-wrapper-2">Sign In</div>
+              <div class="group-wrapper">
+                <div class="group-2">
+                  <img class="search" src="images/G_icon.png" />
+                  <div class="text-wrapper-3">Sign in with Google</div>
+                </div>
+              </div>
+              <div class="div-wrapper">
+                <div class="group-3">
+                  <div class="text-wrapper-3">Sign in with Facebook</div>
+                  <img class="f-logo-RGB-blue" src="images/f_icon.png" />
+                </div>
+              </div>
+              <div class="group-4">
+                <div class="overlap-group-wrapper">
+                  <div class="overlap-group-2">
+                    <div class="text-wrapper-4">Sign In</div>
+                  </div>
+                </div>
+                <div class="group-5">
+                  <div class="overlap-2">
+                    <div class="group-6">
+                      <div class="overlap-group-3">
+                        <div class="text-wrapper-5">Email</div>
+                      </div>
+                    </div>
+                    <div class="group-9">
+                      <div class="overlap-group-3">
+                        <div class="text-wrapper-5">Password</div>
+                        <div class="group-10"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="group-11 loginClose2"
+          src="svg/cross.svg"
+          style="background-color: #666666; cursor: pointer"
+        />
+      </div>
+    </div>
+
+    <div class="backblur hidden"></div>
+  </body>
+</html>
