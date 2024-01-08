@@ -23,7 +23,7 @@
   }
   .imgContainer .overlay {
     top: 0%;
-    max-width: 99%;
+    max-width: 125%;
   }
 
   .imgContainer .heading-text,
@@ -42,7 +42,7 @@
     display: block;
   }
   .write-post-container {
-    left: 78%;
+    left: 70%;
     top: 470px;
   }
   .menu-item {
@@ -74,6 +74,6 @@
     width: inherit;
   }
   .joinNav {
-    left: 85%;
+    left: 80%;
   }
 }

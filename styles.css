@@ -3,9 +3,6 @@ html {
   margin: 0;
   padding: 0;
 }
-body {
-  overflow-x: hidden;
-}
 
 .container1 {
   width: 100%;
