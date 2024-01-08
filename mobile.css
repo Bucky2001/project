@@ -42,7 +42,7 @@
     display: block;
   }
   .write-post-container {
-    left: 530px;
+    left: 78%;
     top: 470px;
   }
   .menu-item {
@@ -56,5 +56,24 @@
     max-width: 99%;
     top: 550px;
     left: 0px;
+  }
+  .custom-views {
+    left: 70%;
+  }
+
+  .custom-view-background {
+    left: 90%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .custom-share-container {
+    left: 90%;
+  }
+
+  .custom-info-bar {
+    width: inherit;
+  }
+  .joinNav {
+    left: 85%;
   }
 }
